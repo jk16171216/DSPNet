@@ -22,7 +22,7 @@ You can also install all dependencies with the following command:  pip install -
 
 ## 🚀 Usage  
 
-To run the model, use the following command:  bash /scripts/DSPNet/xx.py
+To run the model, use the following command:  bash /scripts/DSPNet/xx.sh
 
 
 ## 📊 Datasets  
