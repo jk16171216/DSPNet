@@ -28,12 +28,14 @@ To run the model, use the following command:  bash /scripts/DSPNet/xx.py
 ## 📊 Datasets  
 
 The experiments are conducted on the following benchmark time series datasets:  
-- Electricity  
-- ETTh1 / ETTh2  
-- ETTm1 / ETTm2  
-- Exchange  
-- Traffic  
-- Weather  
+
+ETTh/ETTm: https://github.com/zhouhaoyi/ETDataset
+
+Electricity: https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
+
+Traffic: https://github.com/liyaguang/DCRNN
+
+Weather: https://www.ncei.noaa.gov
 
 Please download the datasets before use and place them in the `dataset/` directory.  
 
