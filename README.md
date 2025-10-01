@@ -16,16 +16,13 @@ It is recommended to use **Python 3.8+** and install the following dependencies:
 - scikit-learn  
 - torch==1.11.0  
 
-You can also install all dependencies with the following command:  
-```bash
-pip install -r requirements.txt
+You can also install all dependencies with the following command:  pip install -r requirements.txt
+
 
 
 ## 🚀 Usage  
 
-To run the model, use the following command:  
-```bash
-bash /scripts/DSPNet/xx.py
+To run the model, use the following command:  bash /scripts/DSPNet/xx.py
 
 
 ## 📊 Datasets  
