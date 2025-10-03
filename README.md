@@ -46,7 +46,8 @@ This project uses multiple publicly available benchmark datasets for long-term t
 
 ### Directory Structure
 - `data_provider/` : Load and preprocess datasets (normalization, sliding window).
-- `exp/` folder contains scripts and modules for training, validation, and testing of the DSPNet model.
+- `dataset/` : Dataset storage location
+- `exp/` : folder contains scripts and modules for training, validation, and testing of the DSPNet model.
 - `models/` : Implementation of DSPNet and baseline models.
 - `layers/` : Core network modules (attention, patch embedding, feed-forward layers).
 - `utils/` : Helper functions (metrics, visualization, logging).
