@@ -58,7 +58,9 @@ This project uses multiple publicly available benchmark datasets for long-term t
 - PyTorch 1.11.0
 - numpy, pandas, scikit-learn, matplotlib
   
-The environment can also be quickly installed with pip install -r requirements.txt.
+The environment can also be quickly installed with 
+```bash
+pip install -r requirements.txt.
 ## Usage
 1. Prepare datasets in `./dataset/` folder.
 2. Run training script (example for ETTh1 dataset):
