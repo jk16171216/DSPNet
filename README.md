@@ -61,6 +61,8 @@ This project uses multiple publicly available benchmark datasets for long-term t
 The environment can also be quickly installed with 
 ```bash
 pip install -r requirements.txt.
+
+
 ## Usage
 1. Prepare datasets in `./dataset/` folder.
 2. Run training script (example for ETTh1 dataset):
