@@ -59,8 +59,8 @@ This project uses multiple publicly available benchmark datasets for long-term t
 - numpy, pandas, scikit-learn, matplotlib
   
 The environment can also be quickly installed with 
-```bash
-pip install -r requirements.txt.
+  ```bash
+  pip install -r requirements.txt
 
 
 ## Usage
