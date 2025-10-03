@@ -75,5 +75,8 @@ If you use this code or datasets in your research, please cite the corresponding
 **Code:**
 - DSPNet repository: Liang et al., "DSPNet: A Transformer Network Based on Down-Sampling Patch for Long-Term Multivariate Time Series Forecasting" (under review), GitHub: https://github.com/jk16171216/DSPNet
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
