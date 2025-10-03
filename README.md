@@ -62,5 +62,18 @@ This project uses multiple publicly available benchmark datasets for long-term t
    ```bash
    bash ./scripts/DSPNet/ETTh1.sh
 
+## Citations
+
+If you use this code or datasets in your research, please cite the corresponding sources:
+
+**Datasets:**
+- ETTh/ETTm: Chen et al., "ETDataset: A collection of electricity transformer temperature datasets", GitHub: https://github.com/zhouhaoyi/ETDataset
+- Electricity: UCI Machine Learning Repository, "ElectricityLoadDiagrams20112014", https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
+- Traffic: Li et al., "DCRNN: Diffusion Convolutional Recurrent Neural Network for Traffic Forecasting", GitHub: https://github.com/liyaguang/DCRNN
+- Weather: NOAA National Centers for Environmental Information, https://www.ncei.noaa.gov
+
+**Code:**
+- DSPNet repository: Liang et al., "DSPNet: A Transformer Network Based on Down-Sampling Patch for Long-Term Multivariate Time Series Forecasting" (under review), GitHub: https://github.com/jk16171216/DSPNet
+
 
 
