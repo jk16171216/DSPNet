@@ -8,7 +8,7 @@ This repository provides the official implementation of **DSPNet**, a deep learn
 
 The proposed DSPNet model follows the workflow illustrated below:
 
-![DSPNet Model Architecture](model.png)
+![DSPNet Model Architecture](model.jpg)
 
 **Workflow:**
 1. Data preprocessing: normalize raw time series and construct input-output windows.
