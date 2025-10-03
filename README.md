@@ -26,7 +26,7 @@ This project uses multiple publicly available benchmark datasets for long-term t
 
 **Availability:**  
 - Raw datasets can be downloaded from the links above.  
-- Preprocessed versions are provided in the `./data/` folder of this repository for direct use.  
+
 
 
 ## 📦 Dependencies  
