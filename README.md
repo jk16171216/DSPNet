@@ -1,9 +1,7 @@
 # DSPNet: A Transformer Network Based on Multi-Scale Feature Modeling and Patch Representation for Long-Term Multivariate Time Series Forecasting
 
-## 🔍 Introduction
-This repository provides the implementation of **DSPNet**.  
-DSPNet employs **multi-scale modeling** and **patch-based Transformer networks** to effectively improve the accuracy of multivariate time series forecasting. Experimental results demonstrate that DSPNet achieves state-of-the-art performance on multiple public datasets.  
-
+## Description 
+This repository provides the official implementation of **DSPNet**, a deep learning framework for long-term multivariate time series forecasting. The project includes source code, datasets, and experimental scripts for reproducing the results reported in our research. DSPNet introduces a multi-scale modeling approach and uses patch representations, combined with a Transformer-based architecture, to effectively capture more comprehensive multi-scale temporal dependencies. This repository allows researchers and practitioners to: - Reproduce experimental results on benchmark datasets. - Apply DSPNet to their own multivariate time series forecasting tasks. - Extend or adjust the architecture for applications related to AI and data-driven modeling.
 
 ---
 
