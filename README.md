@@ -3,6 +3,20 @@
 ## Description 
 This repository provides the official implementation of **DSPNet**, a deep learning framework for long-term multivariate time series forecasting. The project includes source code, datasets, and experimental scripts for reproducing the results reported in our research. DSPNet introduces a multi-scale modeling approach and uses patch representations, combined with a Transformer-based architecture, to effectively capture more comprehensive multi-scale temporal dependencies. This repository allows researchers and practitioners to: - Reproduce experimental results on benchmark datasets. - Apply DSPNet to their own multivariate time series forecasting tasks. - Extend or adjust the architecture for applications related to AI and data-driven modeling.
 
+
+## Methodology
+
+The proposed DSPNet model follows the workflow illustrated below:
+
+![DSPNet Model Architecture](model.png)
+
+**Workflow:**
+1. Data preprocessing: normalize raw time series and construct input-output windows.
+2. Patch construction: segment input sequences into down-sampling patches.
+3. Transformer-based architecture with attention and channel enhancement modules.
+4. Output layer: long-term forecasting predictions.
+
+
 ## Dataset Information
 
 This project uses multiple publicly available benchmark datasets for long-term time series forecasting:
