@@ -62,7 +62,7 @@ This project uses multiple publicly available benchmark datasets for long-term t
 1. Prepare datasets in `./dataset/` folder.
 2. Run training script (example for ETTh1 dataset):
    ```bash
-   bash ./scripts/DSPNet/ETTh1.sh
+   bash ./scripts/DSPNet/etth1.sh
 
 ## Citations
 
