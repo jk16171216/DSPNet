@@ -51,6 +51,7 @@ This project uses multiple publicly available benchmark datasets for long-term t
 - `layers/` : Core network modules (attention, patch embedding, feed-forward layers).
 - `utils/` : Helper functions (metrics, visualization, logging).
 - `scripts/` : Shell scripts to train and evaluate DSPNet on different datasets.
+- `run_longExp.py': Script for running long-term time series forecasting experiments, supporting multiple datasets, prediction lengths, and configurations. It manages training, validation, testing, and result saving for comprehensive evaluation.
 
 ## Dependencies
 - Python 3.8+
