@@ -59,18 +59,15 @@ This project uses multiple publicly available benchmark datasets for long-term t
 - numpy, pandas, scikit-learn, matplotlib
   
 The environment can also be quickly installed with:
-
-```bash
-pip install -r requirements.txt
-
-
-
+  ```bash
+  pip install -r requirements.txt
+  ```
 ## Usage
 1. Prepare datasets in `./dataset/` folder.
 2. Run training script (example for ETTh1 dataset):
    ```bash
    bash ./scripts/DSPNet/etth1.sh
-
+    ```
 ## Citations
 
 If you use this code or datasets in your research, please cite the corresponding sources:
