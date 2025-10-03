@@ -12,9 +12,10 @@ The proposed DSPNet model follows the workflow illustrated below:
 
 **Workflow:**
 1. Data preprocessing: normalize raw time series and construct input-output windows.
-2. Patch construction: segment input sequences into down-sampling patches.
-3. Transformer-based architecture with attention and channel enhancement modules.
-4. Output layer: long-term forecasting predictions.
+2. Multi-scale Modeling: Leveraging down-sampling and trend-seasonal decomposition to capture patterns at multiple temporal scales.
+3. Patch Representation: By segmenting long sequences into manageable patches, the model achieves higher computational efficiency, enhanced local feature extraction, while preserving global temporal trends.
+4. Transformer Architecture: Performs global feature extraction on patch-based time series data.
+5. Output layer: long-term forecasting predictions.
 
 
 ## Dataset Information
