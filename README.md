@@ -57,7 +57,7 @@ This project uses multiple publicly available benchmark datasets for long-term t
 - numpy, pandas, scikit-learn, matplotlib
 
 ## Usage
-1. Prepare datasets in `./data/` folder.
+1. Prepare datasets in `./dataset/` folder.
 2. Run training script (example for ETTh1 dataset):
    ```bash
    bash ./scripts/DSPNet/ETTh1.sh
