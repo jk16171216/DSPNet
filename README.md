@@ -58,7 +58,7 @@ This project uses multiple publicly available benchmark datasets for long-term t
 - PyTorch 1.11.0
 - numpy, pandas, scikit-learn, matplotlib
   
-The environment can also be quickly installed with:
+Dependencies can also be quickly installed with:
 ```bash
 pip install -r requirements.txt
 ```
