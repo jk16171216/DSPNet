@@ -75,7 +75,7 @@ If you use this code or datasets in your research, please cite the corresponding
 - Weather: NOAA National Centers for Environmental Information, https://www.ncei.noaa.gov
 
 **Code:**
-- DSPNet repository: Liang et al., "DSPNet: A Transformer Network Based on Down-Sampling Patch for Long-Term Multivariate Time Series Forecasting" (under review), GitHub: https://github.com/jk16171216/DSPNet
+- DSPNet repository: Liang et al., "DSPNet: A Transformer Network Based on Multi-Scale Feature Modeling and Patch Representation for Long-Term Multivariate Time Series Forecasting" (under review), GitHub: https://github.com/jk16171216/DSPNet
 
 ## License
 
