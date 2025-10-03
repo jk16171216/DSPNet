@@ -27,6 +27,30 @@ This project uses multiple publicly available benchmark datasets for long-term t
 **Availability:**  
 - Raw datasets can be downloaded from the links above.  
 
+## Code Information
+
+### Directory Structure
+- `data_provider/` : Load and preprocess datasets (normalization, sliding window).
+- `models/` : Implementation of DSPNet and baseline models.
+- `layers/` : Core network modules (attention, patch embedding, feed-forward layers).
+- `utils/` : Helper functions (metrics, visualization, logging).
+- `scripts/` : Shell scripts to train and evaluate DSPNet on different datasets.
+
+### Main Functions
+- `train.py` : Train DSPNet on a specified dataset.
+- `predict.py` : Evaluate the model and output predictions.
+- `evaluate.py` : Compute performance metrics (MAE, MSE).
+
+### Dependencies
+- Python 3.8+
+- PyTorch 1.11.0
+- numpy, pandas, scikit-learn, matplotlib
+
+### Usage
+1. Prepare datasets in `./data/` folder.
+2. Run training script (example for ETTh1 dataset):
+   ```bash
+   bash ./scripts/DSPNet/ETTh1.sh
 
 
 ## 📦 Dependencies  
