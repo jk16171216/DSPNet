@@ -63,36 +63,4 @@ This project uses multiple publicly available benchmark datasets for long-term t
    bash ./scripts/DSPNet/ETTh1.sh
 
 
-## 📦 Dependencies  
-
-It is recommended to use **Python 3.8+** and install the following dependencies:  
-- numpy  
-- matplotlib  
-- pandas  
-- scikit-learn  
-- torch==1.11.0  
-
-You can also install all dependencies with the following command:  pip install -r requirements.txt
-
-
-
-## 🚀 Usage  
-
-To run the model, use the following command:  bash /scripts/DSPNet/xx.sh
-
-
-## 📊 Datasets  
-
-The experiments are conducted on the following benchmark time series datasets:  
-
-ETTh/ETTm: https://github.com/zhouhaoyi/ETDataset
-
-Electricity: https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
-
-Traffic: https://github.com/liyaguang/DCRNN
-
-Weather: https://www.ncei.noaa.gov
-
-Please download the datasets before use and place them in the `dataset/` directory.  
-
 
